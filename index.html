@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="1s">
+    <link rel="icon" type="images/x-icon" href="penguin.jpg"/>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel=stylesheet> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Cynthia Dalmas</title>
+</head>
+<body>
+    <nav>
+        <div class="nav1">
+            <h2 class="logo">
+                My <span>Portfolio</span>                           
+            </h2>
+        </div>
+        <!--HUMBERGURE-->
+        <div id="myNav" class="overlay1">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay1-content">
+                <li><a href="#home" onclick="closeNav()">Home</a></li>
+                <li><a href="#about" onclick="closeNav()">About</a></li>
+                <li><a href="#experience" onclick="closeNav()">Experience</a></li>
+                <li><a href="#services" onclick="closeNav()">Experties</a></li>
+                <li><a href="#hobby" onclick="closeNav()">Hobby</a></li>
+                <!-- <li><a href="#ref" onclick="closeNav()">Referees</a></li> -->
+                <li><a href="#footer" onclick="closeNav()">contact</a></li>
+            </div>
+        </div>
+    <!--END HUMBERGER-->
+        <div class="nav2">
+            <ul id="navigation">
+                <div class="one">
+                    <li id="removethis"><a href="#home">Home</a></li>
+                    <div class="dropdown-content">
+                        <a href="#about">About</a>
+                        <a href="#about">Objectives</a>
+                    </div>
+                </div>
+                <div class="one">
+                    <li id="removethis"><a href="#about">About</a></li>
+                    <div class="dropdown-content">
+                        <a href="#about">About Me</a>
+                        <a href="#about">My Skills</a>
+                        <a href="#about">My Vision</a>
+                        <a href="#about">My Motto</a>
+                    </div>
+                </div>
+                <div class="one">
+                    <li id="removethis"><a href="#experience">Experience</a></li>
+                    <div class="dropdown-content">
+                        <a href="#experience">Trading Company Limited</a>
+                        <a href="#ntti">Kenya National Bureau of Statistics</a>
+                        <a href="#ntti">SonySugar</a>
+                    </div>
+                </div>
+                <div class="one">
+                    <li id="removethis"><a href="#services">Experties</a></li>
+                    <div class="dropdown-content">
+                        <a href="cybersecurity.html">Excel</a>
+                        <a href="programming.html">Python</a>
+                        <a href="mobiledev.html">Matplotlib</a>
+                        <a href="graphics.html">Numpy</a>
+                        <a href="graphics.html">Pandas</a>
+                    </div>
+                </div>
+                <!-- <div class="one">
+                    <li id="removethis"><a href="#hobby">Hobby</a></li>
+                </div>
+                <div class="one">
+                    <li id="removethis"><a href="#referees">Referees</a></li>
+                    <div class="dropdown-content">
+                        <a href="#referees">Mr Moses</a>
+                        <a href="#referees">Madam Irene</a>
+                    </div>
+                </div> -->
+                <div class="one">
+                    <<li id="removethis"><a href="#footer">contact</a></li>
+                </div>
+            </ul>
+        </div>
+        <span onclick="openNav()" class="fa-solid fa-bars" id="openNav"></span>
+    </nav>
+    <div class="father">
+        <div class="f-main">
+<!--edition-->
+        <div class="mother" id="home">
+            <div class="right">
+                <div class="box1">
+        <!--cyn-->
+            <div class="leadersCard" id="cynl">
+                <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="leaadersCard-image">
+                        <img src="cyn.jpeg" alt="my pic" class="leadersCard-img">
+                    </div>
+                </div>
+
+                <div class="leadersCard-content">
+                    <h2 class="leaderName">Hey</h2>
+                    <p class="leaderDescription">You can directly send me a mail buy clicking the link below. Get your Data analysed today</p>
+                    <a href="mailto:mosesngure@gmail.com"><button class="button">Email</button></a>
+                </div>
+            </div>
+        <!--cyn-->
+                </div>
+            </div><!--end right-->
+            <div class="left">
+                <div class="alltext">
+                    <div class="alltext1">
+                        <h4>Hello My name is</h4>
+                        <h1><span>Cynthia</span> Dalmas</h1>
+                    </div>
+                    <div class="alltext2">  
+                            <h1>
+                                I'm a <a href="" class="typewrite" data-period="2000" data-type='[ "Data Analyst", "Data Scientist", "Business Analyst"]'>
+                                <span class="wrap"></span>
+                                </a>
+                            </h1>
+                    </div>
+                    <!--placeholder-->
+                    <h3 id="ph"></h3>
+                    <!--place holder-->
+                    <div class="newslatter">
+                        <form>
+                            <input type="text" id="mail" placeholder="leave a comment">
+                            <input type="submit" name="submit", value="send">
+                        </form>
+                    </div>
+                </div><!--end left-->
+            </div>
+            <!--</div>-->
+        </div><!--mother-->
+<!--about-->
+        <section class="about" id="about">
+            <div class="about_main">
+                <img src="cyn.jpeg" alt="" id="about-img1">
+                <div class="about-text">
+                    <h2>About me</h2>
+                    <p>Hello, I'm Cynthia, I am a data analyst professional, a versatile individual with a 3-year demonstrated history of working with businesses to collect, transform, organize and analyze data to help in making informed and actionable decisions. I have an excellent understanding and proficiency of platforms for effective data analyses, including R, SQL, Spreadsheets, Tableau and Power BI. I'm well equipped with strong communication, organizational and analytical skills.</p>
+                    <h2>Skills</h2>
+                    <p>
+                        Data Visualization, Business Intelligence (BI), Teamwork, SQL, Data Analysis,Statistics, Microsoft Excel, Analytical Skills, Numpy, Pandas, Machine Learning Algorithms, Data Modeling, Data Processing, Exploratory data analysis, model Validation
+                    </p>
+                </div>
+            </div>
+        </section>
+<!--about me-->
+<!--experience-->
+<section class="experience" id="experience">
+    <center><h1>My Experience</h1></center>
+    <div class="about_main">
+        <img src="cyn2.jpeg" alt="pass" id="about-img">
+        <div class="about-text">
+            <h2>Fla Fashion Trading Company</h2>
+            <p id="ntti">Worked at Fla Fashion Trading Company Limited. Due Jun 2021 - Present · 2 yrs 6 months located in Nairobi
+                I was performing statistical analysis to validate insights from data and provide statistical reports to the management for decision making and problem solving. 
+                To perform exploratory data analysis to identify trends, patterns and anomalies on large datasets that assist with planning. 
+                To conduct market intelligence research for business development.To perform statistical analysis to validate insights from data and provide statistical reports to the management for decision making and problem solving. To perform exploratory data analysis to identify trends, patterns and anomalies on large datasets that assist with planning. To conduct market intelligence research for business development.
+                </p>
+            <h2>Kenya National Bureau of Statistics</h2>
+            <p> Due<br> Jan 2020 - Dec 2020· 1 yr <br>Nairobi, Kenya <br>Collected and prepared survey data from Nairobi County clusters for analysis.</p>
+            <h2>South Nyanza Sugar Company Ltd (SonySugar)</h2>
+            <p>Served as an Intern May 2019 - Jul 2019 3 months where I assisted in performing descriptive statistics analysis on the Industrial performance data for production planning.</p>
+        </div>
+    </div>
+</section>
+<!--experience-->
+<!--hobby-->
+    
+<!--hobby-->
+<!--services-->
+            <div class="services" id="services">
+                <div class="title">
+                    <h2>My Experties</h2>
+                </div>
+                <div class="box">
+                    <div class="card">
+                        <div class="so" id="s1" onclick = "minimizecard('s1')">
+                            <p>In my role, I leverage SQL for insightful data analysis. I craft queries to extract and analyze relevant information from databases, allowing me to make informed decisions. SQL is an indispensable tool in my analytical toolkit, enabling efficient and effective data exploration.</p>
+                        </div>
+                        <i class="fa-solid fa-database"></i>
+                        <h5>Database</h5>
+                        <div class="pra">
+                            <p style="text-align: center;">
+                            <a class="button" onclick="expandcard('s1')">read more</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="so" id="s2" onclick = "minimizecard('s2')">
+                            <p>In my work, I leverage Python for data analysis. With libraries like Pandas and NumPy, I efficiently manipulate datasets. Matplotlib aids in creating insightful visualizations, while Scikit-learn facilitates machine learning tasks. Python empowers my analytical capabilities profoundly.</p>
+                        </div>
+                        <i class="fa-brands fa-python"></i>
+                        <h5>Python</h5>
+                        <div class="pra">
+                            <p style="text-align: center;">
+                                <a class="button" onclick="expandcard('s2')">read more</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="so" id="s3" onclick = "minimizecard('s3')">
+                            <p>In my role, I leverage an array of tools for analysis. From Excel for data manipulation to Python for coding tasks, each tool serves a unique purpose. Visualization tools like Tableau enhance my ability to communicate insights effectively.</p>
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        <h5>Analysis</h5>
+                        <div class="pra">
+                            <p style="text-align: center;">
+                                <a class="button" onclick="expandcard('s3')">read more</a>
+                            </p>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <div class="so" id="s4" onclick = "minimizecard('s4')">
+                            <p>I possess a strong proficiency in machine learning algorithms, with a focus on developing predictive models and optimizing outcomes. My expertise includes regression, classification, and clustering algorithms, ensuring effective data-driven solutions and informed decision-making in diverse applications.</p>
+                        </div>
+                        <i class="fa-solid fa-server"></i>
+                        <h5>Machine Learning</h5>
+                        <div class="pra">
+                            <p style="text-align: center;">
+                                <a class="button" onclick="expandcard('s4')">read more</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="so" id="s5" onclick = "minimizecard('s5')">
+                            <p>I excel in data modeling, employing a comprehensive understanding of database structures and relationships. My skills include conceptual, logical, and physical data modeling, ensuring efficient and organized data storage. I adeptly translate complex business requirements into robust and scalable data architectures.</p>
+                        </div>
+                        <i class="fa-brands fa-python"></i>
+                        <h5>Data Modelling</h5>
+                        <div class="pra">
+                            <p style="text-align: center;">
+                                <a class="button" onclick="expandcard('s5')">read more</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="so" id="s6" onclick = "minimizecard('s6')">
+                            <p>I possess strong skills in Exploratory Data Analysis, leveraging my expertise to dissect and interpret complex datasets. With proficiency in statistical analysis and data visualization, I uncover meaningful insights that drive informed decision-making, showcasing my analytical prowess and attention to detail.</p>
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <h5>Exploratory Data Analysis</h5>
+                        <div class="pra">
+                            <p style="text-align: center;">
+                                <a class="button" onclick="expandcard('s6')">read more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--contact us-->
+    <!-- <div class="hobby" id="hobby">
+        <h1 id="call">My hobby</h1>
+        <p>My hobbies include: Programming, CTF challenges like <span><a href="https://www.hackthebox.com">hackthebox</a>, <a href="https://www.tryhackme.com">tryhackme</a></span> etc. I also have interest In web development and Artificial Intelligence that I am slowly learning via tensorflow, pytorch and many more related libraries</p>
+        <p>Besides my ICT hobbies, Whenever I am not in my vscode or in my terminal with black screen and green font color, I also Love playing football and Basketball</p>
+    </div> -->
+    <!--REFFERIES-->
+    <!-- <div class="refer" id="referees" onscroll="animate()">
+        <div class="title">
+            <h2>Referees</h2>
+        </div>
+        <div class="ref-box" id="ref">
+            <--moses--
+            <div class="leadersCard">
+                <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="leaadersCard-image">
+                        <img src="Moses.PNG" alt="Mr moses" class="leadersCard-img">
+                    </div>
+                </div>
+
+                <div class="leadersCard-content">
+                    <h2 class="leaderName">Moses Ngure</h2>
+                    <p class="leaderDescription">Lectuer at Nairobi Technical and the CEO at Focus Computer System</p>
+                    <a href="mailto:mosesngure@gmail.com"><button class="button">Email</button></a>
+                </div>
+            </div>
+        <--moses-->
+
+            <!--Irene--
+            <div class="leadersCard">
+                <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="leaadersCard-image">
+                        <img src="Jascintah.PNG" alt="" class="leadersCard-img">
+                    </div>
+                </div>
+
+                <div class="leadersCard-content">
+                    <h2 class="leaderName">john doe</h2>
+                    <p class="leaderDescription">Lorem ipsum dolor sit amet.</p>
+                    <a href="mailto:pass"><button class="button">Email</button></a>
+                </div>
+            </div>
+            <--Irene--
+
+            <--seth--
+            <div class="leadersCard">
+                <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="leaadersCard-image">
+                        <img src="seth.jpg" alt="" class="leadersCard-img">
+                    </div>
+                </div>
+
+                <div class="leadersCard-content">
+                    <h2 class="leaderName">Seth Edwin</h2>
+                    <p class="leaderDescription">Front Desk G4S Nairobi</p>
+                    <a href="mailto:pass"><button class="button">Email</button></a>
+                </div>
+            </div>
+            <--seth--
+        </div>
+    </div> -->
+    <!--REFFERies-->
+        <div id = "footer">
+            <p>For Data Analysis</p>
+            <p>reach out to me via my social media accounts</p>
+            <div class="media">
+                <a href="https://www.linkedin.com/in/cynthia-dalmas-01302b19a/"><i class="fab fa-linkedin fa-bounce"></i></a>
+                <a href="https://github.com/cynthiadalmas"><i class="fab fa-github fa-bounce"></i></a>
+                <a href="mailto:churchilkodhiambo@gmail.com"><i class="fa-solid fa-envelope fa-bounce"></i></a>
+            </div>
+            <div class="all">
+                <h2>Hire Me Today</h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        powerd by <a href="churchilkodhiambo@gmail.com">BlackCodeLabs</a>
+    </footer>
+    <script src="HUM.JS"></script>
+    <script src="typewriter.js"></script>
+</body>
+</html>
